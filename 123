@@ -6,9 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Strona</title>
+    <title>Document</title>
 </head>
 <body>
-    <header><h1>Uczę się programować dla pieniędzy</h1></header>
+    <header>
+    <h1>Uczę się programować dla pieniędzy</h1>
+</header>
+  <div class="container">
+    <div class="box1"><img src="https://picsum.photos/id/237/200/300" width="150px" height="150px"><p><h1><b>Jakub</b></h1></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel accumsan nulla, 
+        nec ullamcorper sem. Duis ultricies, sapien eget sagittis vestibulum, nulla orci venenatis orci,
+         non sollicitudin odio neque id leo.</p></div>
+    <div class="box2"><img src="https://picsum.photos/seed/picsum/200/300" width="150px" height="150px"><h1><b>Bartek</b></h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed porro, aliquid quasi explicabo consectetur nesciunt assumenda atque perspiciatis reiciendis quia eos suscipit aspernatur ut! Aspernatur quam sapiente blanditiis numquam nam.</div>
+    <div class="box3"><h1><b>Mateusz</b></h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ad dicta aperiam eius beatae enim molestias odio fuga. Fugiat commodi consectetur amet, totam facilis quis odio ad placeat similique quas.</div>
+    <div class="box4"><h1><b>Tomek</b></h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatibus, tenetur veritatis error obcaecati magni? Aperiam nisi quo non possimus suscipit magnam, a sit libero nesciunt, commodi fuga, repellat eum!</div>
+    <div class="box5"><h1><b>Michał</b></h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui aliquid tenetur dolorem velit rerum cum, architecto veritatis nobis delectus beatae, corporis eos adipisci consequatur inventore! Inventore a facere voluptatibus eaque!</div>
+  </div>
+  <br>
+  <div class="box6"><h1>Czy na programowaniu da się zarobić?</h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ducimus nostrum quo similique? Voluptate repellat ipsa obcaecati necessitatibus praesentium magnam tenetur animi, nam quod quam odit ipsum, consectetur fuga rem? </div>
 </body>
 </html>
