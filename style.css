@@ -7,7 +7,10 @@ background-color: #333533;
 
 
 }
-
+.boxm{
+    width: 80%;
+    margin-left: 10%;
+}
 header
 {
     text-align: center;
@@ -73,10 +76,38 @@ img{
 }
 .box6{
     margin: 2cm;
-    width: auto;
+    width: 90%;
     height: auto;
     background-color: #202020;
     color: #d6d6d6;
     border-radius: 25px;
     padding: 15px;
 }
+button{
+    background-color:#ffd100;
+    border-radius: 25px;
+    border: 1px solid;
+    border-color: #ffd100;
+    text-align: center;
+    text-decoration: none;
+    width: 55px;
+}
+a{
+    text-decoration: none;
+    color: #202020;
+}
+
+a:hover {
+    background-color:#202020;
+    color: #ffd100;
+    border-color: #ffd100;
+    border-radius: 25px;
+}
+  button:hover{
+    background-color: #202020;
+    color: #ffd100;
+    border: 1px solid;
+    border-radius: 25px;
+    border-color: #ffd100;
+    text-decoration: none;
+  }
