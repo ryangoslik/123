@@ -7,6 +7,10 @@ background-color: #333533;
 
 
 }
+.article{
+    overflow: scroll;
+    height: 270px;
+}
 .boxm{
     justify-content: center;
     display: flex;
@@ -84,7 +88,6 @@ img{
     border: 3px solid #ffd100;
 }
 .box6{
-    overflow-y:scroll;
     margin-top: 10px ;
     height: 300px;
     width: auto;
@@ -175,49 +178,61 @@ section{
     margin: auto;  
     margin-bottom: 15px;
 }
-.tabela1{
-    border: solid 2px #d6bb22;
-    margin-left: 30px;
-    margin-right: 30px;
+.table1{
+    min-width: 50%;
+    border: solid 2px #ffd100;
+    color: #202020;
+    padding: 0;
 }
-.tabela1 tr:last-child, .tabela1 tr:nth-child(2){
-    background-color: #d6bb22;
+.table1 tr:nth-child(even){
+    background-color: #ffd100;
     color: #202020;
 }
-.tabela1 :nth-child(2) td:first-child, .tabela1 tr:nth-child(2) td:last-child, .tabela1 tr:nth-child(4) td:first-child, .tabela1 tr:nth-child(4) td:last-child{
+.table1 tr:nth-child(odd) td:nth-child(even){
     color: green;
 }
-.tabela1 tr:nth-child(3) td:nth-child(2){
+.table1 tr:nth-child(even) td:nth-child(odd){
+    color: green;
+}
+.table1 tr:nth-child(odd) td:nth-child(even){
     color: red;
 }
+.table1 td{
+    padding: 30px;
+}
+.table1 th{
+    padding: 10px;
+}
 
-.tabela1 td, .tabela1 th{
-    padding: 20px;
-    width: 200px;
-    border: solid 2px #222
-}
-.tabela2{
-    border: solid 2px #d6bb22;
-    margin-left: 30px;
-    margin-right: 30px; 
-}
-.tabela2 tr:first-child, .tabela2 tr:nth-child(3){
-    background-color: #d6bb22;
+.table2{
+    min-width: 50%;
+    border: solid 2px #ffd100;
     color: #202020;
-  }
-
-  .tabela2 tr:nth-child(2) td:first-child,  .tabela2 tr:nth-child(2) td:last-child,   .tabela2 tr:nth-child(4) td:first-child,  .tabela2 tr:nth-child(4) td:last-child{
+    padding: 0;
+}
+.table2 tr:nth-child(even){
+    background-color: #ffd100;
+    color: #202020;
+}
+.table2 tr:nth-child(odd) td:nth-child(even){
+    color: green;
+}
+.table2 tr:nth-child(even) td:nth-child(odd){
+    color: green;
+}
+.table2 tr:nth-child(odd) td:nth-child(even){
     color: red;
-  }
-
-  .tabela2 tr:nth-child(3) td:nth-child(2){
-    color:green;
-  }
-
-  .tabela2 td, .tabela2 th
-  {
-padding: 20px;
-width: 200px;
-border: solid 2px #222;
+}
+.table2 td{
+    padding: 30px;
+}
+.table2 th{
+    padding: 10px;
+}
+  .sticky{
+    position: sticky;
+    color: red;
+    background-color: #d6d6d6;
+    top: 0;
   }
 
