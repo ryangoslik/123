@@ -181,8 +181,9 @@ section{
 .table1{
     min-width: 50%;
     border: solid 2px #ffd100;
-    color: #202020;
+    color:whitesmoke;
     padding: 0;
+    margin: 15px;
 }
 .table1 tr:nth-child(even){
     background-color: #ffd100;
@@ -207,20 +208,21 @@ section{
 .table2{
     min-width: 50%;
     border: solid 2px #ffd100;
-    color: #202020;
+    color: whitesmoke;
     padding: 0;
+    margin: 15px;
 }
-.table2 tr:nth-child(even){
+.table2 tr:nth-child(odd){
     background-color: #ffd100;
-    color: #202020;
-}
-.table2 tr:nth-child(odd) td:nth-child(even){
-    color: green;
+    color: whitesmoke;
 }
 .table2 tr:nth-child(even) td:nth-child(odd){
     color: green;
 }
 .table2 tr:nth-child(odd) td:nth-child(even){
+    color: green;
+}
+.table2 tr:nth-child(even) td:nth-child(odd){
     color: red;
 }
 .table2 td{
